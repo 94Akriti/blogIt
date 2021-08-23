@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import {Header} from './components/Header'
 import CHeader from './components/CHeader'
+import Channel from './components/Channel'
 class App extends React.Component{
   render(){
     return(
@@ -12,6 +13,7 @@ class App extends React.Component{
         <p>Hi I'm Akriti</p>
         <Header name="Jimmy"/> 
         <CHeader name="Arpana"/>
+        <Channel/>
       </div>
       );
   }
