@@ -11,7 +11,7 @@ class App extends React.Component{
         <Header name="Akriti" last="Yadav"/>
         <p>Hi I'm Akriti</p>
         <Header name="Jimmy"/> 
-        <CHeader/>
+        <CHeader name="Arpana"/>
       </div>
       );
   }
