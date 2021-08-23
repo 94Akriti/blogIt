@@ -9,14 +9,14 @@ class Channel extends React.Component{
     }
     sayHi(){
         this.setState({
-            msg:'Hi Channel'
+            msg:'Hi Akriti'
         })
     }
     render(){
         return (
         <div>
         <h1>{this.state.msg}</h1>
-        <button onClick={ () => { this.sayHi() }}>Say Hi to the channel </button>
+        <button onClick={ () => { this.sayHi() }}>Say Hi</button>
             </div>
    )
     }

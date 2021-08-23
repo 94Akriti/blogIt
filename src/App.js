@@ -5,6 +5,8 @@ import './App.css';
 import {Header} from './components/Header'
 import CHeader from './components/CHeader'
 import Channel from './components/Channel'
+import FunctionClick from './components/FunctionClick'
+import CFunctionClick from './components/CFunctionClick'
 class App extends React.Component{
   render(){
     return(
@@ -14,6 +16,8 @@ class App extends React.Component{
         <Header name="Jimmy"/> 
         <CHeader name="Arpana"/>
         <Channel/>
+        <FunctionClick/>
+        <CFunctionClick/>
       </div>
       );
   }
