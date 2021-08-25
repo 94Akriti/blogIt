@@ -16,9 +16,12 @@ class CFunctionClick extends Component {
         console.log("Hello Jimmy",this.state.breed,this.props.year);
     }
     render(){
+        const dogs=this.props.dogs;
+        //const alldogs=dogs.map(function(dogs){ return <li>{dogs}</li>});
     return(
         <React.Fragment>
             <button onClick={this.changeEvent}>Click It!!!</button>
+            <ul>{dogs.map((dogs)=><li>{dogs}</li>)}</ul>
             </React.Fragment>
     )
     }

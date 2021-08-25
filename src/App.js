@@ -9,6 +9,7 @@ import FunctionClick from './components/FunctionClick'
 import CFunctionClick from './components/CFunctionClick'
 class App extends React.Component{
   render(){
+    const dogs=['cherry','rox','jimmy'];
     return(
       <div className="App">
         <Header name="Akriti" last="Yadav"/>
@@ -17,7 +18,7 @@ class App extends React.Component{
         <CHeader name="Arpana"/>
         <Channel/>
         <FunctionClick/>
-        <CFunctionClick year="2009"/>
+        <CFunctionClick year="2009" dogs={dogs}/>
       </div>
       );
   }
