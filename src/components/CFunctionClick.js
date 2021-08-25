@@ -17,9 +17,9 @@ class CFunctionClick extends Component {
     }
     render(){
     return(
-        <div>
+        <React.Fragment>
             <button onClick={this.changeEvent}>Click It!!!</button>
-        </div>
+            </React.Fragment>
     )
     }
 }
