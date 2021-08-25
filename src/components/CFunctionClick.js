@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 
 class CFunctionClick extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         //this.changeEvent=this.changeEvent.bind(this);
         this.state={
-            breed:"Spitz"
+            breed:"Spitz",
+            year:this.props.year
         }
     }
     changeEvent=()=>{
         this.setState({
             breed:"American Spitz"
         })
-        console.log("Hello Jimmy",this.state.breed);
+        console.log("Hello Jimmy",this.state.breed,this.props.year);
     }
     render(){
     return(

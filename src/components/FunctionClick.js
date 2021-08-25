@@ -1,12 +1,13 @@
 import React from 'react'
 
 function FunctionClick(){
-    function changeEvent(){
-            console.log("This is Eventhandling")
+    function changeEvent(e){
+        e.preventDefault();
+            console.log("This is Eventhandling",this)
     }
     return(
         <div>
-            <button onClick={changeEvent}>Click It!!!</button>
+            <a href="google.com" onClick={changeEvent}>Click It!!!</a>
         </div>
     )
 }

@@ -17,7 +17,7 @@ class App extends React.Component{
         <CHeader name="Arpana"/>
         <Channel/>
         <FunctionClick/>
-        <CFunctionClick/>
+        <CFunctionClick year="2009"/>
       </div>
       );
   }
