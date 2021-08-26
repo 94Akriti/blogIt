@@ -11,23 +11,25 @@ import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import './appstyle.css'
 import Style from './appstyle.module.css'
+import Form from './components/Form'
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
     return(
       <div className="App">
-        <h1 className={Style.success}>Success</h1>
+        {/*<h1 className={Style.success}>Success</h1>
         <h1 className='error'>Error</h1>
-        {/*<Header name="Akriti" last="Yadav"/>
+        <Header name="Akriti" last="Yadav"/>
         <p>Hi I'm Akriti</p>
         <Header name="Jimmy"/> 
         <CHeader name="Arpana"/>
         <Channel/>
         <FunctionClick/>
         <CFunctionClick year="2009" dogs={dogs}/>
-        */}
+        
         <Stylesheet isvalue={true}></Stylesheet>
-        <Inline></Inline>
+        <Inline></Inline>*/}
+        <Form></Form>
       </div>
       );
   }
