@@ -12,6 +12,7 @@ import Inline from './components/Inline'
 import './appstyle.css'
 import Style from './appstyle.module.css'
 import Form from './components/Form'
+import Routing from './components/Routing';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -28,8 +29,9 @@ class App extends React.Component{
         <CFunctionClick year="2009" dogs={dogs}/>
         
         <Stylesheet isvalue={true}></Stylesheet>
-        <Inline></Inline>*/}
-        <Form></Form>
+        <Inline></Inline>
+        <Form></Form>*/}
+        <Routing></Routing>
       </div>
       );
   }
