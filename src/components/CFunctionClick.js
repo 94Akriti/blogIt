@@ -13,6 +13,7 @@ class CFunctionClick extends Component {
         this.setState({
             breed:"American Spitz"
         })
+
         console.log("Hello Jimmy",this.state.breed,this.props.year);
     }
     render(){
@@ -21,7 +22,15 @@ class CFunctionClick extends Component {
     return(
         <React.Fragment>
             <button onClick={this.changeEvent}>Click It!!!</button>
-            <ul>{dogs.map((dogs)=><li>{dogs}</li>)}</ul>
+            {this.props.year}
+            <ul>
+            {
+                dogs.map((dogs)=>{  
+                    return 
+                    <li key={dogs}>{dogs}</li>
+                })
+            }
+                    </ul>
             </React.Fragment>
     )
     }
