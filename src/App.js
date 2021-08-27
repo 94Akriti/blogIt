@@ -13,6 +13,7 @@ import './appstyle.css'
 import Style from './appstyle.module.css'
 import Form from './components/Form'
 import Routing from './components/Routing';
+import LifeCycleA from './components/LifeCycleA';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -30,8 +31,9 @@ class App extends React.Component{
         
         <Stylesheet isvalue={true}></Stylesheet>
         <Inline></Inline>
-        <Form></Form>*/}
-        <Routing></Routing>
+        <Form></Form>
+        <Routing></Routing>*/}
+        <LifeCycleA></LifeCycleA>
       </div>
       );
   }
