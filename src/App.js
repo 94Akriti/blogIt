@@ -17,6 +17,7 @@ import LifeCycleA from './components/LifeCycleA';
 import UserNames from './components/UserNames';
 import PostUsersList from './components/PostUsersList';
 import PostForm from './components/PostForm';
+import Hooks from './components/Hooks';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -38,8 +39,9 @@ class App extends React.Component{
         <Routing></Routing>
         <LifeCycleA></LifeCycleA>
         <UserNames></UserNames>
-        <PostUsersList></PostUsersList>*/}
-        <PostForm></PostForm>
+        <PostUsersList></PostUsersList>
+        <PostForm></PostForm>*/}
+        <Hooks></Hooks>
       </div>
       );
   }
