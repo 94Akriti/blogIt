@@ -15,6 +15,8 @@ import Form from './components/Form'
 import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
 import UserNames from './components/UserNames';
+import PostUsersList from './components/PostUsersList';
+import PostForm from './components/PostForm';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -34,8 +36,10 @@ class App extends React.Component{
         <Inline></Inline>
         <Form></Form>
         <Routing></Routing>
-        <LifeCycleA></LifeCycleA>*/}
+        <LifeCycleA></LifeCycleA>
         <UserNames></UserNames>
+        <PostUsersList></PostUsersList>*/}
+        <PostForm></PostForm>
       </div>
       );
   }
