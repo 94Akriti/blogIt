@@ -18,6 +18,7 @@ import UserNames from './components/UserNames';
 import PostUsersList from './components/PostUsersList';
 import PostForm from './components/PostForm';
 import Hooks from './components/Hooks';
+import HookObject from './components/HookObject';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -40,8 +41,9 @@ class App extends React.Component{
         <LifeCycleA></LifeCycleA>
         <UserNames></UserNames>
         <PostUsersList></PostUsersList>
-        <PostForm></PostForm>*/}
-        <Hooks></Hooks>
+        <PostForm></PostForm>
+        <Hooks></Hooks>*/}
+        <HookObject></HookObject>
       </div>
       );
   }
