@@ -19,6 +19,7 @@ import PostUsersList from './components/PostUsersList';
 import PostForm from './components/PostForm';
 import Hooks from './components/Hooks';
 import HookObject from './components/HookObject';
+import HookArray from './components/HookArray';
 class App extends React.Component{
   render(){
     const dogs=['cherry','rox','jimmy'];
@@ -44,6 +45,7 @@ class App extends React.Component{
         <PostForm></PostForm>
         <Hooks></Hooks>*/}
         <HookObject></HookObject>
+        <HookArray></HookArray>
       </div>
       );
   }
